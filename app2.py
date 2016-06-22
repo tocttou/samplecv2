@@ -1,6 +1,6 @@
 import cvfy
 
-app = cvfy.register("gh:local:61369601:3000:8001")
+app = cvfy.register("nongh:0.0.0.0:7223093:3000:8001")
 
 @cvfy.crossdomain
 @app.listen()
